@@ -3,6 +3,7 @@ Just a repo where I can walk myself through my process
 
 - Firstly, I need to download my data from here:
 ``https://biobank.ndph.ox.ac.uk/synthetic_dataset/ ``
+    - Downloaded the files `gene_dic.dat.txt` and `rand_chr22.dat`
 - Then I need to set up an environment where I can play with my downloaded data
 
 ## Installing dependencies on my practice conda environment 
@@ -13,4 +14,4 @@ conda install -c pytorch pytorch torchvision torchaudio
 conda install -c conda-forge xgboost lightgbm statsmodels
 ```
 
-- tensorflow was being weird so i left it for now
+- `tensorflow` was being weird so i left it for now
