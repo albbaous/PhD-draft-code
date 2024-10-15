@@ -2,7 +2,7 @@
 Just a repo where I can walk myself through my process 
 
 ## Installing dependencies on my conda environment 
-'''
+'''bash
 conda install numpy pandas matplotlib seaborn scikit-learn scipy keras
 conda install -c pytorch pytorch torchvision torchaudio
 conda install -c conda-forge xgboost lightgbm statsmodels
