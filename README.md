@@ -18,3 +18,7 @@ conda install -c conda-forge xgboost lightgbm statsmodels
 ### Parse the SNP Data
 - Parsing the SNP data, using the dictionary file (gene_dic.dat) to map SNP indices to actual SNP variants. This uses `parse_snp.py`
 - using HPC so run it using `run.bash`
+
+### Preprocess and Clean the Data
+Remove missing or noisy data.
+If necessary, impute missing SNP values (e.g., using the most frequent SNP per column).
