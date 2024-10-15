@@ -14,3 +14,7 @@ conda install -c conda-forge xgboost lightgbm statsmodels
 ```
 
 - `tensorflow` was being weird so i left it for now
+
+### Parse the SNP Data
+- Parsing the SNP data, using the dictionary file (gene_dic.dat) to map SNP indices to actual SNP variants. This uses `parse_snp.py`
+- using HPC so run it using `run.bash`
