@@ -26,6 +26,7 @@ conda install -c conda-forge xgboost lightgbm statsmodels
 2: Homozygous alternative (e.g., "T T")
 
 We want to combine the SNP data for all chromosomes to create a full matrix of individuals × SNPs - in this case, i have one chromosome though - might incorporate this later
+
 Missing data (represented by NaN) can be imputed using methods such as:
 #### Mean imputation: 
 Replace NaNs with the most common genotype (e.g., mode) for that SNP.
