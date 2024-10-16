@@ -29,5 +29,5 @@ We want to combine the SNP data for all chromosomes to create a full matrix of i
 Missing data (represented by NaN) can be imputed using methods such as:
 #### Mean imputation: 
 Replace NaNs with the most common genotype (e.g., mode) for that SNP.
-#### KNN imputation: 
+#### KNN imputation (I am gonna attempt this) : 
 Use the nearest neighbors to impute missing values based on similar individuals.
